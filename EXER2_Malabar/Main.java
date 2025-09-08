@@ -1,20 +1,21 @@
 public class Main {
     public static void main(String[] args) {
-      
-        Laptop laptop1 = new Laptop();
-        Laptop laptop2 = new Laptop("HP", "Victus 15", "SN-RTX4050");
+        // Car objects
+        Car car1 = new Car();
+        Car car2 = new Car("Red", "ABC-1234", "CHS-98765", "Toyota", 2022, false);
 
-        laptop1.displayInfo();
+        car1.displayInfo();
         System.out.println();
-        laptop2.displayInfo();
+        car2.displayInfo();
 
         System.out.println("-------------------");
 
-        Student s1 = new Student();
-        Student s2 = new Student("Oliver", 21, "BSIT");
+        // Customer objects
+        Customer c1 = new Customer();
+        Customer c2 = new Customer("Oliver", 21, "Male", "oliver@example.com", "09946788344", true);
 
-        s1.displayInfo();
+        c1.displayInfo();
         System.out.println();
-        s2.displayInfo();
+        c2.displayInfo();
     }
 }
