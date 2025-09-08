@@ -12,7 +12,7 @@ public class Main {
 
         // Customer objects
         Customer c1 = new Customer();
-        Customer c2 = new Customer("Oliver", 21, "Male", "oliver@example.com", "09946788344", true);
+        Customer c2 = new Customer("Oliver", 18, "Male", "oliver@example.com", "09946788344", true);
 
         c1.displayInfo();
         System.out.println();
