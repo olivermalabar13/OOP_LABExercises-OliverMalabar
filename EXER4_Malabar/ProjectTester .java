@@ -23,3 +23,4 @@ public class ProjectTester {
         applicant.applyJob();               // Calls Applicant's overridden applyJob()
     }
 }
+
