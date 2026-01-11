@@ -5,10 +5,6 @@ import java.util.Random;
 import javax.swing.*;
 import javax.swing.border.Border;
 
-/**
- * ArithmeticGameV1.java
- * Styled purple variant of your classmate’s ArithmeticGame
- */
 enum GameLevel {
     LEVEL1(1, 100),
     LEVEL2(101, 500),
@@ -359,3 +355,4 @@ public class ArithmeticGameV1 extends JFrame implements ActionListener {
         );
     }
 }
+
